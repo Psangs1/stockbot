@@ -1,11 +1,12 @@
 import requests
 from data.config import OPENAI_API_KEY
+from data.config import DISCORD_BOT_TOKEN
 
-FINNHUB_API_KEY = 'cnaktmpr01ql0f8a33h0cnaktmpr01ql0f8a33hg'
+
 BASE_URL = 'https://finnhub.io/api/v1'
 
 
-BOT_TOCKEN = "MTIwOTY1MDIzODE0NzUzNDg3OQ.G9Uw4M.J_mosyr4xODFyE9OoHd5S56ObmzVqPpkWEeSgs"
+BOT_TOCKEN = DISCORD_BOT_TOKEN
 CHANNEL = 1209662010804019260
 
 def stock_exists(symbol):
