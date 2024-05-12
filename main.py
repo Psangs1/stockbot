@@ -28,7 +28,7 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send(embed=discord.Embed(description="Hello!")) 
 
-
+FINNHUB_API_KEY = 'cnaktmpr01ql0f8a33h0cnaktmpr01ql0f8a33hg'
 BASE_URL = 'https://finnhub.io/api/v1'
 
 @bot.command(name='stockinfo')
